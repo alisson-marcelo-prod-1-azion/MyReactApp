@@ -1,25 +1,25 @@
 {
-  "name": "MyReactApp5",
-  "bucket": "MyReactApp5",
+  "name": "MyReactApp100",
+  "bucket": "MyReactApp100",
   "preset": "react",
   "mode": "deliver",
   "env": "production",
-  "prefix": "20240423182531",
+  "prefix": "20240423182751",
   "not-first-run": true,
   "function": {
-    "id": 20612,
+    "id": 20614,
     "name": "__DEFAULT__",
     "file": ".edge/worker.js",
     "args": "./azion/args.json",
-    "instance-id": 20254,
+    "instance-id": 20256,
     "instance-name": "__DEFAULT__"
   },
   "application": {
-    "id": 1713899008,
+    "id": 1713899010,
     "name": "__DEFAULT__"
   },
   "domain": {
-    "id": 1713897686,
+    "id": 1713897688,
     "name": "__DEFAULT__"
   },
   "rt-purge": {
@@ -27,13 +27,13 @@
   },
   "origin": [
     {
-      "origin-id": 126839,
-      "origin-key": "df846dbe-f9c6-4912-bda4-56db5b788f8a",
-      "name": "MyReactApp5_single"
+      "origin-id": 126843,
+      "origin-key": "7de4726e-4216-42b5-b3bb-616797d586f7",
+      "name": "MyReactApp100_single"
     },
     {
-      "origin-id": 126840,
-      "origin-key": "de077c41-ae7e-4564-87f6-87f5e0bdccf6",
+      "origin-id": 126845,
+      "origin-key": "42da4200-761f-4ba8-925f-800da26174c2",
       "name": "origin-storage-default"
     }
   ],
@@ -41,15 +41,15 @@
     "created": false,
     "rules": [
       {
-        "id": 237703,
+        "id": 237714,
         "name": "Main_Rule"
       },
       {
-        "id": 237704,
+        "id": 237715,
         "name": "Index_Rewrite_1"
       },
       {
-        "id": 237705,
+        "id": 237716,
         "name": "Index_Rewrite_2"
       }
     ]
